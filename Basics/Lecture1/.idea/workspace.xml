@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a592ef3-717d-4eb3-a282-ca54d1bf45a3" name="Changes" comment="Started learning java les go">
-      <change afterPath="$PROJECT_DIR$/src/demo.java" afterDir="false" />
+    <list default="true" id="5a592ef3-717d-4eb3-a282-ca54d1bf45a3" name="Changes" comment="Added a solution for the Hello SoftUni problem">
+      <change afterPath="$PROJECT_DIR$/src/numsOneToTen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666110019745</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a solution for the Hello SoftUni problem">
+      <created>1666112640785</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666112640785</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +80,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Started learning java les go" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started learning java les go" />
+    <MESSAGE value="Added a solution for the Hello SoftUni problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a solution for the Hello SoftUni problem" />
   </component>
 </project>
