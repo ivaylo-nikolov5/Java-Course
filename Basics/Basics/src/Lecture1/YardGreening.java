@@ -1,7 +1,5 @@
 package Lecture1;
 
-import com.sun.jdi.DoubleValue;
-
 import java.util.Scanner;
 
 public class YardGreening {
