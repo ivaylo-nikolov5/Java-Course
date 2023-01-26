@@ -5,6 +5,7 @@ public class BasicOperators {
         int z = 56;
 
         double u = z / (double)y;
+        int m = x % 3;
         double d = Math.pow(x, y);
         System.out.println(u);
 
