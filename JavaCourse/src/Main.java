@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        Enums lvl = Enums.LOW;
+
+        int x = lvl.getLvl();
+        System.out.println(Enums.valueOf("LOW"));
+        lvl.setLvl(5);
+        System.out.println(lvl.getLvl());
     }
 }
