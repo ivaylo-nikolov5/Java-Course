@@ -9,6 +9,7 @@ public class MapsAndHashMaps {
         m.put("ivaylo", 17);
         m.put("joe", 1);
         m.put("bob", 999);
+        m.remove("bob");
 
         boolean containsK = m.containsKey("ivaylo");
         boolean containsV = m.containsValue(17);
