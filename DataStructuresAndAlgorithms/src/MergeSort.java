@@ -1,6 +1,6 @@
 public class MergeSort {
     public static void main(String[] args) {
-        int[] array = {3, 7, 8, 5, 4, 2, 6, 1};
+        int[] array = {5, 2, 1, 4, 3, 8, 6, 9, 7};
 
         mergeSort(array);
 
