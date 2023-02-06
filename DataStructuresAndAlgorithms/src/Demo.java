@@ -1,7 +1,7 @@
 public class Demo {
     public static void main(String[] args) {
         int[] array = {4, 2, 1, 6, 3, 8, 7, 9, 5};
-        mergeSort(array);
+        quickSort(array, 0, array.length - 1);
 
         for (int el: array) {
             System.out.print(el + " ");
@@ -124,5 +124,34 @@ public class Demo {
             i++;
         }
 
+    }
+
+    private static void quickSort(int[] array, int start, int end) {
+        if (end <= start) return;
+
+        int pivot = partition(array, start, end);
+        quickSort(array, start, pivot - 1);
+        quickSort(array, pivot + 1, end);
+    }
+
+    private static int partition(int[] array, int start, int end) {
+        int pivot = array[end];
+        int i = start - 1;
+
+        for (int j = start; j < end; j++) {
+            if (array[j] < pivot) {
+                i++;
+                int temp = array[j];
+                array[j] = array[i];
+                array[i] = temp;
+
+            }
+        }
+        i++;
+        int temp = array[i];
+        array[i] = pivot;
+        array[end] = temp;
+
+        return i;
     }
 }
