@@ -1,43 +1,104 @@
 public class Demo {
     public static void main(String[] args) {
-        int[] array = {5, 2, 1, 4, 3, 8, 6, 9, 7};
+        int[] array = {4, 2, 1, 6, 3, 8, 7, 9, 5};
         mergeSort(array);
+
         for (int el: array) {
-            System.out.println(el + " ");
+            System.out.print(el + " ");
+        }
+    }
+
+    private static int binarySearch(int[] array, int number) {
+        int low = 0;
+        int high = array.length - 1;
+
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            int midEl = array[mid];
+
+            if (midEl == number) {
+                return mid;
+            } else if (midEl < number) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return -1;
+    }
+
+    private static void bubbleSort(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length - 1; j++) {
+                if (array[j] < array[j + 1]) {
+                    continue;
+                }
+
+                int temp = array[j];
+                array[j] = array[j + 1];
+                array[j + 1] = temp;
+            }
+        }
+    }
+
+    private static void selectionSort(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            int min = i;
+            for (int j = i; j < array.length; j++) {
+                if (array[min] > array[j]) {
+                    min = j;
+                }
+            }
+
+            int temp = array[i];
+            array[i] = array[min];
+            array[min] = temp;
+        }
+    }
+
+    private static void insertionSort(int[] array) {
+        for (int i = 1; i < array.length; i++) {
+            int temp = array[i];
+            for (int j = i - 1; j >= 0; j--) {
+                if (array[j + 1] > array[j]) {
+                    break;
+                }
+
+                array[j + 1] = array[j];
+                array[j] = temp;
+            }
         }
     }
 
     private static void mergeSort(int[] array) {
         int length = array.length;
         if (length <= 1) return;
-
         int middle = array.length / 2;
-        int[] leftHalf = slice(array, middle, 0);
-        int[] rightHalf = slice(array, length - middle, middle);
+
+        int[] leftHalf = split(array, 0, middle, middle);
+        int[] rightHalf = split(array, middle, length, length - middle);
 
         mergeSort(leftHalf);
         mergeSort(rightHalf);
+        merge(array ,leftHalf, rightHalf);
 
-        merge(leftHalf, rightHalf, array);
     }
 
-    private static int[] slice(int[] array, int length, int idx) {
+    private static int[] split(int[] array, int start, int end, int length) {
         int[] tempArray = new int[length];
-        int i = 0;
-
-        while (i < tempArray.length) {
-            tempArray[i] = array[idx];
-            idx++;
-            i++;
+        int j = 0;
+        for (int i = start; i < end; i++) {
+            tempArray[j] = array[i];
+            j++;
         }
 
         return tempArray;
     }
 
-    private static void merge(int[] leftHalf, int[] rightHalf, int[] array) {
-        int leftSize = array.length / 2;
-        int rightSize = array.length - leftSize;
-
+    private static void merge(int[] array, int[] leftHalf, int[] rightHalf) {
+        int leftSize = leftHalf.length;
+        int rightSize = rightHalf.length;
         int i = 0, l = 0, r = 0;
 
         while (l < leftSize && r < rightSize) {
@@ -48,7 +109,6 @@ public class Demo {
                 array[i] = rightHalf[r];
                 r++;
             }
-
             i++;
         }
 
