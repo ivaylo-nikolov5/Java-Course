@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Diagonal difference problem">
-      <change afterPath="$PROJECT_DIR$/src/PlusMinus.java" afterDir="false" />
+    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Plus minus problem">
+      <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Staircase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +49,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PlusMinus">
-    <configuration name="AVeryBigSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AVeryBigSum" />
-      <module name="DSA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompareTheTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompareTheTriples" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,8 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleArraySum" />
+    <configuration name="SpinningDonut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpinningDonut" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Staircase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Staircase" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.SpinningDonut" />
+        <item itemvalue="Application.Staircase" />
         <item itemvalue="Application.PlusMinus" />
         <item itemvalue="Application.DiagonalDifference" />
-        <item itemvalue="Application.AVeryBigSum" />
-        <item itemvalue="Application.CompareTheTriples" />
-        <item itemvalue="Application.SimpleArraySum" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675797129826</updated>
-      <workItem from="1675797130923" duration="9381000" />
+      <workItem from="1675797130923" duration="10755000" />
     </task>
     <task id="LOCAL-00001" summary="Sum 2 integers problem">
       <created>1675797318231</created>
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675858277056</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Plus minus problem">
+      <created>1675859511326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675859511326</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +167,8 @@
     <MESSAGE value="Compare the triplets problem" />
     <MESSAGE value="A very big sum problem" />
     <MESSAGE value="Diagonal difference problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diagonal difference problem" />
+    <MESSAGE value="Plus minus problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plus minus problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
