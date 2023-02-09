@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Staircase problem">
-      <change afterPath="$PROJECT_DIR$/src/MiniMaxSum.java" afterDir="false" />
+    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Mini-max sum problem">
+      <change afterPath="$PROJECT_DIR$/src/BirthdayCakeCandles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/Demo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MiniMaxSum">
+  <component name="RunManager" selected="Application.BirthdayCakeCandles">
+    <configuration name="BirthdayCakeCandles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BirthdayCakeCandles" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="DSA" />
@@ -59,13 +65,6 @@
     </configuration>
     <configuration name="MiniMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MiniMaxSum" />
-      <module name="DSA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlusMinus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlusMinus" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BirthdayCakeCandles" />
         <item itemvalue="Application.MiniMaxSum" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.SpinningDonut" />
         <item itemvalue="Application.Staircase" />
-        <item itemvalue="Application.PlusMinus" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675797129826</updated>
-      <workItem from="1675797130923" duration="16214000" />
+      <workItem from="1675797130923" duration="18585000" />
     </task>
     <task id="LOCAL-00001" summary="Sum 2 integers problem">
       <created>1675797318231</created>
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675862452118</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mini-max sum problem">
+      <created>1675962500686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675962500686</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +182,8 @@
     <MESSAGE value="Diagonal difference problem" />
     <MESSAGE value="Plus minus problem" />
     <MESSAGE value="Staircase problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Staircase problem" />
+    <MESSAGE value="Mini-max sum problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mini-max sum problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
