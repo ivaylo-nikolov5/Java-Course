@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Mini-max sum problem">
-      <change afterPath="$PROJECT_DIR$/src/BirthdayCakeCandles.java" afterDir="false" />
+    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Birthday cake candles problem">
+      <change afterPath="$PROJECT_DIR$/src/TimeConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/BirthdayCakeCandles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/BirthdayCakeCandles.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BirthdayCakeCandles">
+  <component name="RunManager" selected="Application.TimeConversion">
     <configuration name="BirthdayCakeCandles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BirthdayCakeCandles" />
       <module name="DSA" />
@@ -77,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Staircase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Staircase" />
+    <configuration name="TimeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TimeConversion" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeConversion" />
         <item itemvalue="Application.BirthdayCakeCandles" />
         <item itemvalue="Application.MiniMaxSum" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.SpinningDonut" />
-        <item itemvalue="Application.Staircase" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675797129826</updated>
-      <workItem from="1675797130923" duration="18585000" />
+      <workItem from="1675797130923" duration="22975000" />
     </task>
     <task id="LOCAL-00001" summary="Sum 2 integers problem">
       <created>1675797318231</created>
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675962500686</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Birthday cake candles problem">
+      <created>1675967398629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675967398629</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +191,8 @@
     <MESSAGE value="Plus minus problem" />
     <MESSAGE value="Staircase problem" />
     <MESSAGE value="Mini-max sum problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mini-max sum problem" />
+    <MESSAGE value="Birthday cake candles problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Birthday cake candles problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -197,6 +206,11 @@
           <url>file://$PROJECT_DIR$/src/MiniMaxSum.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TimeConversion.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
