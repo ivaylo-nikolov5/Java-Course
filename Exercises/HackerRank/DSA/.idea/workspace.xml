@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Time conversion problem">
-      <change afterPath="$PROJECT_DIR$/src/GradingStudents.java" afterDir="false" />
+    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Grading Students problem">
+      <change afterPath="$PROJECT_DIR$/src/AppleAndOrange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +48,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GradingStudents">
-    <configuration name="BirthdayCakeCandles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BirthdayCakeCandles" />
+  <component name="RunManager" selected="Application.AppleAndOrange">
+    <configuration name="AppleAndOrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppleAndOrange" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo" />
+    <configuration name="BirthdayCakeCandles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BirthdayCakeCandles" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppleAndOrange" />
         <item itemvalue="Application.GradingStudents" />
         <item itemvalue="Application.TimeConversion" />
         <item itemvalue="Application.BirthdayCakeCandles" />
         <item itemvalue="Application.MiniMaxSum" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675797129826</updated>
-      <workItem from="1675797130923" duration="27239000" />
+      <workItem from="1675797130923" duration="31065000" />
     </task>
     <task id="LOCAL-00001" summary="Sum 2 integers problem">
       <created>1675797318231</created>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676028858455</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Grading Students problem">
+      <created>1676211190106</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676211190106</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +206,8 @@
     <MESSAGE value="Mini-max sum problem" />
     <MESSAGE value="Birthday cake candles problem" />
     <MESSAGE value="Time conversion problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Time conversion problem" />
+    <MESSAGE value="Grading Students problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grading Students problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
