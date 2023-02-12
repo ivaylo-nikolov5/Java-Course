@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Birthday cake candles problem">
-      <change afterPath="$PROJECT_DIR$/src/TimeConversion.java" afterDir="false" />
+    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Time conversion problem">
+      <change afterPath="$PROJECT_DIR$/src/GradingStudents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/BirthdayCakeCandles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/BirthdayCakeCandles.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TimeConversion">
+  <component name="RunManager" selected="Application.GradingStudents">
     <configuration name="BirthdayCakeCandles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BirthdayCakeCandles" />
       <module name="DSA" />
@@ -64,15 +63,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MiniMaxSum" />
+    <configuration name="GradingStudents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GradingStudents" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpinningDonut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpinningDonut" />
+    <configuration name="MiniMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiniMaxSum" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GradingStudents" />
         <item itemvalue="Application.TimeConversion" />
         <item itemvalue="Application.BirthdayCakeCandles" />
         <item itemvalue="Application.MiniMaxSum" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.SpinningDonut" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675797129826</updated>
-      <workItem from="1675797130923" duration="22975000" />
+      <workItem from="1675797130923" duration="27239000" />
     </task>
     <task id="LOCAL-00001" summary="Sum 2 integers problem">
       <created>1675797318231</created>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675967398629</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Time conversion problem">
+      <created>1676028858455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676028858455</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +198,8 @@
     <MESSAGE value="Staircase problem" />
     <MESSAGE value="Mini-max sum problem" />
     <MESSAGE value="Birthday cake candles problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Birthday cake candles problem" />
+    <MESSAGE value="Time conversion problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Time conversion problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -212,7 +219,15 @@
           <line>5</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GradingStudents.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSA$GradingStudents.ic" NAME="GradingStudents Coverage Results" MODIFIED="1676210520657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
