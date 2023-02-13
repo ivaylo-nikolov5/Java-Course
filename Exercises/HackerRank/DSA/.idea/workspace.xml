@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Grading Students problem">
-      <change afterPath="$PROJECT_DIR$/src/AppleAndOrange.java" afterDir="false" />
+    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Apple and orange problem">
+      <change afterPath="$PROJECT_DIR$/src/NumberLineJumps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AppleAndOrange">
+  <component name="RunManager" selected="Application.NumberLineJumps">
     <configuration name="AppleAndOrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppleAndOrange" />
       <module name="DSA" />
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MiniMaxSum" />
+    <configuration name="NumberLineJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberLineJumps" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberLineJumps" />
         <item itemvalue="Application.AppleAndOrange" />
         <item itemvalue="Application.GradingStudents" />
         <item itemvalue="Application.TimeConversion" />
         <item itemvalue="Application.BirthdayCakeCandles" />
-        <item itemvalue="Application.MiniMaxSum" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675797129826</updated>
-      <workItem from="1675797130923" duration="31065000" />
+      <workItem from="1675797130923" duration="37423000" />
     </task>
     <task id="LOCAL-00001" summary="Sum 2 integers problem">
       <created>1675797318231</created>
@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676211190106</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Apple and orange problem">
+      <created>1676225574908</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676225574908</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +214,8 @@
     <MESSAGE value="Birthday cake candles problem" />
     <MESSAGE value="Time conversion problem" />
     <MESSAGE value="Grading Students problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Grading Students problem" />
+    <MESSAGE value="Apple and orange problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apple and orange problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -231,6 +239,11 @@
           <url>file://$PROJECT_DIR$/src/GradingStudents.java</url>
           <line>9</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberLineJumps.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
