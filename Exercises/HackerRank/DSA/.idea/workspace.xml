@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Between two sets problem">
-      <change afterPath="$PROJECT_DIR$/src/BreakingTheRecords.java" afterDir="false" />
+    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Breaking the records problem">
+      <change afterPath="$PROJECT_DIR$/src/SubarrayDivision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BreakingTheRecords">
+  <component name="RunManager" selected="Application.SubarrayDivision">
     <configuration name="AppleAndOrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppleAndOrange" />
       <module name="DSA" />
@@ -70,13 +70,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradingStudents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GradingStudents" />
-      <module name="DSA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NumberLineJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NumberLineJumps" />
       <module name="DSA" />
@@ -84,13 +77,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubarrayDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubarrayDivision" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubarrayDivision" />
         <item itemvalue="Application.BreakingTheRecords" />
         <item itemvalue="Application.BetweenTwoSets" />
         <item itemvalue="Application.NumberLineJumps" />
         <item itemvalue="Application.AppleAndOrange" />
-        <item itemvalue="Application.GradingStudents" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675797129826</updated>
-      <workItem from="1675797130923" duration="44238000" />
+      <workItem from="1675797130923" duration="47158000" />
     </task>
     <task id="LOCAL-00001" summary="Sum 2 integers problem">
       <created>1675797318231</created>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676392869041</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Breaking the records problem">
+      <created>1676394308320</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676394308320</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +238,8 @@
     <MESSAGE value="Apple and orange problem" />
     <MESSAGE value="Number line jumps problem" />
     <MESSAGE value="Between two sets problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Between two sets problem" />
+    <MESSAGE value="Breaking the records problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Breaking the records problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -265,6 +273,11 @@
           <url>file://$PROJECT_DIR$/src/BetweenTwoSets.java</url>
           <line>11</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SubarrayDivision.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
