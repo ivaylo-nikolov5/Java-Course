@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Breaking the records problem">
-      <change afterPath="$PROJECT_DIR$/src/SubarrayDivision.java" afterDir="false" />
+    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Subarray division problem">
+      <change afterPath="$PROJECT_DIR$/src/DivisibleSumPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,28 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.SubarrayDivision">
-    <configuration name="AppleAndOrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppleAndOrange" />
-      <module name="DSA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.DivisibleSumPairs">
     <configuration name="BetweenTwoSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BetweenTwoSets" />
       <module name="DSA" />
@@ -65,6 +58,13 @@
     </configuration>
     <configuration name="BreakingTheRecords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BreakingTheRecords" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivisibleSumPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DivisibleSumPairs" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DivisibleSumPairs" />
         <item itemvalue="Application.SubarrayDivision" />
         <item itemvalue="Application.BreakingTheRecords" />
         <item itemvalue="Application.BetweenTwoSets" />
         <item itemvalue="Application.NumberLineJumps" />
-        <item itemvalue="Application.AppleAndOrange" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675797129826</updated>
-      <workItem from="1675797130923" duration="47158000" />
+      <workItem from="1675797130923" duration="47667000" />
+      <workItem from="1676644548385" duration="2241000" />
     </task>
     <task id="LOCAL-00001" summary="Sum 2 integers problem">
       <created>1675797318231</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676394308320</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Subarray division problem">
+      <created>1676456866911</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676456866911</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +247,8 @@
     <MESSAGE value="Number line jumps problem" />
     <MESSAGE value="Between two sets problem" />
     <MESSAGE value="Breaking the records problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breaking the records problem" />
+    <MESSAGE value="Subarray division problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subarray division problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
