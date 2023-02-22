@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenMethodSelectionDialog2">
+		<item key="width" value="631"/>
+		<item key="height" value="497"/>
+		<item key="x" value="645"/>
+		<item key="y" value="179"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.TypeSelectionComponent">
+		<item key="show_status_line" value="true"/>
+		<item key="workingset_settings" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet isWindowWorkingSet=&quot;false&quot; workingSetName=&quot;&quot;/&gt;"/>
+	</section>
+</section>
