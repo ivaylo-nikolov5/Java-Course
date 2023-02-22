@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Migratory Birds problem">
-      <change afterPath="$PROJECT_DIR$/src/DayOfTheProgrammer.java" afterDir="false" />
+    <list default="true" id="1df9ae3a-7565-467a-9f35-7dca8d56f993" name="Changes" comment="Day of the programmer problem">
+      <change afterPath="$PROJECT_DIR$/src/BillDivision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +50,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DayOfTheProgrammer">
-    <configuration name="BreakingTheRecords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BreakingTheRecords" />
+  <component name="RunManager" selected="Application.BillDivision">
+    <configuration name="BillDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BillDivision" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BillDivision" />
         <item itemvalue="Application.DayOfTheProgrammer" />
         <item itemvalue="Application.MigratoryBirds" />
         <item itemvalue="Application.DivisibleSumPairs" />
         <item itemvalue="Application.SubarrayDivision" />
-        <item itemvalue="Application.BreakingTheRecords" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677077976471</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Day of the programmer problem">
+      <created>1677085390932</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677085390932</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +282,8 @@
     <MESSAGE value="Subarray division problem" />
     <MESSAGE value="Divisible sum pairs problem" />
     <MESSAGE value="Migratory Birds problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Migratory Birds problem" />
+    <MESSAGE value="Day of the programmer problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day of the programmer problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
